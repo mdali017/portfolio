@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header1{
+    background-color: #e7bfa2;
+    background-image: url('/images/header_bg.png',"/images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+    
+}
+.btn-primary{
+    background-color: #fd6e0a;
+    color: white;
+    padding: 18px 35px;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+    padding-top: 50px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+/* banner style */
+.banner{
+    display: flex;
+    margin: 50px 200px;
+    align-items: center;
+    /* background-image: url('/images/header_bg.png'); */
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner-left{}
+.banner-sub-title1{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.banner-title1{
+    color: #181818;
+    font-size: 50px;
+    font-weight: 800;
+}
+.banner-description1{
+    color: #848383;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+/* About Me Section Style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-me{
+    margin: 130px 200px;
+    padding: 50px 150px;
+    background-color: #eee2d9;
+    border-radius: 10px;
+    text-align: center;
+  }
+ .section-title{
+   
+    margin-top: 50px;
+    margin-bottom: 30px;
+} 
+.section-description{
+    
+    color: #757575;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+  .about-me-bottom{
+    display: flex;
+}
+.about-me-details{
+    display: inline;  
+}  
+.about-me-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info .info-title{
+    font-weight: 400;
+    font-size: 15px;
+    color: #757575;
+}
+.about-info .info-description{
+    font-weight: 400;
+    font-size: 10px;
+    color: #333131;
+}
+
+
+
+
+
